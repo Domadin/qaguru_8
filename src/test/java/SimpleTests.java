@@ -13,4 +13,9 @@ public class SimpleTests {
     void negativeTest() {
         assertNotEquals(2 + 2, 5);
     }
+
+    @Test
+    void someTest() {
+        assertNotEquals(3 + 3, 6);
+    }
 }
